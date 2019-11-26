@@ -414,11 +414,11 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
 	font-family: "AnyConv com Michland Script";
-	color: #D94244
+	color: #86022B
 }
 
 hr {
@@ -2423,14 +2423,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #803839;
+  border-color: #E71B4E;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+ background-color: #A64547;
+  border-color: #C40A5D;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2758,14 +2758,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745;
+  color: #B15455;
+  border-color: #B15455;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #B15455;
+  border-color: #B15455;
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
@@ -5089,7 +5089,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 0rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
-	background-image: url("../baking.jpg")
+	background-image: url("../seamless-texture-2674260_1280.png")
 }
 
 @media (min-width: 576px) {

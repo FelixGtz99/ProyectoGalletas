@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -25,21 +26,18 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-		 <li class="nav-item"> <a class="nav-link" href="#">Productos</a> </li>
+		 <li class="nav-item"> <a class="nav-link" href="Catalogo.php">Productos</a> </li>
       <li class="nav-item"> <a class="nav-link" href="#">Contacto</a> </li>
 		 <li class="nav-item"> <a class="nav-link" href="#">Foro</a> </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>&nbsp;
-	  <button type="button" class="btn btn-primary">Ingresar</button>&nbsp;
+      <li class="nav-item"> <a class="nav-link" href="Cart.php">Carrito(<?php echo (empty($_SESSION['CARRITO']))?0:count($_SESSION['CARRITO']) ?>)</a> </li>
+      <button type="button" class="btn btn-primary">Ingresar</button>&nbsp;
 	<a href="Registro.html"> <button type="button" class="btn btn-primary" >Registrarse</button></a>
     </form>
+
   </div>
 </nav>
 	
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.3.1.js"></script>
-</body>
-</html>
